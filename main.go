@@ -11,6 +11,7 @@ import (
 func main() {
 
 	for {
+		// at the start of each loop get the hour, minute and second
 		hour := time.Now().Hour()
 		minute := time.Now().Minute()
 		second := time.Now().Second()
