@@ -16,7 +16,7 @@ func main() {
 		second := time.Now().Second()
 
 		// display time then sleep for 1 second
-		fmt.Printf("%d:%d:%d\n", hour, minute, second)
+		fmt.Printf("%02d:%02d:%02d\n", hour, minute, second)
 		time.Sleep(1 * time.Second)
 
 		// clear the console
